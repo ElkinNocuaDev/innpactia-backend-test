@@ -1,30 +1,33 @@
-# ?? Innpactia Backend Test - Phone Repair API
+# Innpactia Backend Test - Phone Repair API
 
 Este proyecto es una **API RESTful** desarrollada con **Node.js + Express + Sequelize** que gestiona un taller de reparaci車n de celulares.  
 Incluye m車dulos de **autenticaci車n**, **clientes**, **tel谷fonos** y **reparaciones**, adem芍s de pruebas unitarias con **Jest**.
 
 ---
 
-## ?? Tecnolog赤as utilizadas
+## Tecnologias utilizadas
+
 - **Node.js**
 - **Express.js**
 - **Sequelize (ORM)**
 - **PostgreSQL**
 - **JWT (JSON Web Token)**
 - **Jest** para pruebas unitarias
-- **Swagger UI** para documentaci車n interactiva
+- **Swagger UI** para documentacion interactiva
 
 ---
 
-## ?? Requisitos previos
-Antes de ejecutar el proyecto, aseg迆rate de tener instalado:
+## Requisitos previos
+
+Antes de ejecutar el proyecto, asegurate de tener instalado:
+
 - [Node.js](https://nodejs.org/) (v16+ recomendado)  
 - [PostgreSQL](https://www.postgresql.org/)  
 - [Git](https://git-scm.com/)  
 
 ---
 
-## ?? Instalaci車n
+## Instalacion
 
 Clona el repositorio:
 ```bash
@@ -44,39 +47,40 @@ DB_NAME=phone_repair
 JWT_SECRET=supersecreto
 
 
-Ejecuci車n del servidor:
+Ejecucion del servidor:
 
 npm run dev
 
 
-La API estar芍 disponible en:
+La API estara disponible en:
 
-?? http://localhost:4000/api
-?? Documentaci車n Swagger: http://localhost:4000/api-docs
+http://localhost:4000/api
+
+Documentacion Swagger: http://localhost:4000/api-docs
 
 
-?? Endpoints principales
+Endpoints principales
 
-?? Autenticaci車n
+Autenticacion
 
 POST	/auth/register	Registrar un nuevo usuario
-POST	/auth/login	    Iniciar sesi車n y obtener token JWT
+POST	/auth/login	    Iniciar sesion y obtener token JWT
 
-?? Clientes
+Clientes
 
 GET	    /clients	Obtener todos los clientes
 POST	/clients	Crear un nuevo cliente
 
-?? Tel谷fonos
+Telefonos
 
-GET	    /phones/{clientId}	Obtener tel谷fonos de un cliente
-POST	/phones	            Crear un nuevo tel谷fono
+GET	    /phones/{clientId}	Obtener telefonos de un cliente
+POST	/phones	            Crear un nuevo telefono
 
-?? Reparaciones
+Reparaciones
 
 GET	    /repairs	                Listar todas las reparaciones
-GET	    /repairs/phone/{phoneId}	Reparaciones de un tel谷fono espec赤fico
-POST	/repairs	                Crear una nueva reparaci車n
+GET	    /repairs/phone/{phoneId}	Reparaciones de un telefono especifico
+POST	/repairs	                Crear una nueva reparacion
 
 ---
 
@@ -90,15 +94,15 @@ Ejemplo de salida:
 
 PASS src/tests/auth.test.js
   Auth Endpoints
-    ? Debe loguear con usuario v芍lido (151 ms)
-    ? Debe rechazar login inv芍lido (26 ms)
+    Debe loguear con usuario valido (151 ms)
+    Debe rechazar login invalido (26 ms)
 
 Test Suites: 1 passed, 1 total
 Tests:       2 passed, 2 total
 
 ---
 
-????? Autor
+Autor
 
 Elkin Nocua Dev
 
