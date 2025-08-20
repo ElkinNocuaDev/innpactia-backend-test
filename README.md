@@ -1,7 +1,7 @@
 # Innpactia Backend Test - Phone Repair API
 
-Este proyecto es una **API RESTful** desarrollada con **Node.js + Express + Sequelize** que gestiona un taller de reparaci¨®n de celulares.  
-Incluye m¨®dulos de **autenticaci¨®n**, **clientes**, **tel¨¦fonos** y **reparaciones**, adem¨¢s de pruebas unitarias con **Jest**.
+Este proyecto es una **API RESTful** desarrollada con **Node.js + Express + Sequelize** que gestiona un taller de reparacion de celulares.  
+Incluye modulos de **autenticacion**, **clientes**, **telefonos** y **reparaciones**, ademas de pruebas unitarias con **Jest**.
 
 ---
 
